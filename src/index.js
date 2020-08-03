@@ -4,10 +4,13 @@
 //  getElementById, getElementsByTagName, getElementsByClassName
 //  querySelector
 //  querySelectorAll
-
+const pageHeading = document.querySelector('#logoTitle')
+console.log(pageHeading)
+console.dir(pageHeading)
 // 2- Changing an element's text content
 //  textContent, innerText
-
+pageHeading.textContent = 'Lambda Dog'
+pageHeading.innerText = 'Cool Lambda Dog'
 // 3- Changing any property
 //  with dot notation
 //  setAttribute, getAttribute
